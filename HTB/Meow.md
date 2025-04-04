@@ -22,8 +22,8 @@ Gain access to the **Meow** machine and capture the user flag.
 
 ## 🔎 Nmap Scan
 
-```bash
-nmap -sV -sC **10.129.239.98**
+bash
+nmap -sV -sC 10.129.239.98
 
 ---
 
