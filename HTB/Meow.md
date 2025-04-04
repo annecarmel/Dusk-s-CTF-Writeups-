@@ -22,7 +22,7 @@ Gain access to the **Meow** machine and capture the user flag.
 
 ## 🔎 Nmap Scan
 
-bash
+```bash
 nmap -sV -sC 10.129.239.98
 
 ---
@@ -40,7 +40,7 @@ telnet 10.129.239.98
 Once inside, you get a shell prompt.
 
 ---
-
+```nginx
 ## 🏁 Capture the Flag
 cat /flag.txt
 
@@ -62,5 +62,6 @@ Setting up VPN & first access through HTB
 Telnet is super outdated but still fun to poke at!
 VPN config had to be fixed using OpenVPN and Admin PowerShell on Windows.
 Had to enable Telnet manually using:
+```bash
 dism /online /Enable-Feature /FeatureName:TelnetClient
 
