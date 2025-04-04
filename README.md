@@ -23,3 +23,27 @@
 - 🕵️‍♀️ Master Recon & Enumeration
 - 🔐 Exploit Challenges (Privilege Escalation, Web, Crypto)
 - 🧰 Learn Tools: Nmap, Burp Suite, Gobuster, John, etc.
+- 🏆 Get ranked in HTB, THM, and picoCTF
+- 📚 Build a badass writeup archive here
+
+---
+
+## 🎮 Identity
+
+| Field        | Detail                          |
+|--------------|----------------------------------|
+| CTF Alias    | **Dusk** 🌘                     |
+| GitHub       | [@annecarmel](https://github.com/annecarmel) |
+| Theme        | Neon Glitch                     |
+| XP Tracker   | _Coming soon_                   |
+
+---
+
+## 💬 Hacker Quote of the Day
+> “Real hackers don’t brag. They just capture the flag.” — *Dusk*
+
+---
+
+## 📌 Note to Visitors
+If you’re learning CTFs too, feel free to fork or star this repo.  
+Let’s level up together 👾✨  
