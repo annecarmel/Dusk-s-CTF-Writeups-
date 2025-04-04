@@ -1,20 +1,26 @@
-# 🐱 Meow – HTB Starting Point
+# 🐱 HTB Starting Point - Meow
 
-> **Machine Info**
-- **Difficulty**: Very Easy
-- **IP Address**: _Your HTB IP_
-- **Category**: Intro
-
----
-
-## 📌 Objective
-Gain access to the target machine and retrieve the user flag.
+> Status: ✅ Completed  
+> Difficulty: ⭐ Easy  
+> Points: 🎯 10 XP  
+> Date: April 4, 2025  
+> Handle: `dusk`  
 
 ---
 
-## 🕵️‍♀️ Step-by-Step Walkthrough
+## 🧠 Objective
+Gain access to the **Meow** machine and capture the user flag.
 
-### 1. Scanning
+---
+
+## 🖥️ Machine Info
+- **Name:** Meow
+- **IP Address:** `10.10.xx.xx` *(Replace with actual IP)*
+- **Port(s):** 23/tcp (Telnet)
+
+---
+
+## 🔎 Nmap Scan
 
 ```bash
-nmap -sS -sV -Pn 10.129.xxx.xxx
+nmap -sV -sC 10.10.xx.xx
