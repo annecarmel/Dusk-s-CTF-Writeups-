@@ -1,62 +1,25 @@
-# Dusk-s-CTF-Writeups-
-CTF Writeups from Hack The Box and beyond 🧠💣
-<h1 align="center">🌘 Dusk's CTF Arena 🌘</h1>
+<h1 align="center">🌘 Dusk's CTF Arena</h1>
+<p align="center">Welcome to the cyber battlefield, where every flag tells a story.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CTF-Alias-Dusk-7f00ff?style=for-the-badge&logo=hackthebox" />
-  <img src="https://img.shields.io/badge/Path-To%20Legendary-e91e63?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Grind%20Mode%20ON-1e90ff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Started-April_4,_2025-1e90ff?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Level-Up_in_Progress-FF1493?style=for-the-badge" />
 </p>
 
 ---
 
-## 🎯 Goal
-To become a **CTF legend**, one machine at a time. Logging the journey of hacks, flags, and lessons as `Dusk`.
+## 🚩 Writeups Log
+
+| Machine  | Category        | Difficulty | Status  | Writeup                         |
+|----------|------------------|------------|---------|----------------------------------|
+| Meow     | Starting Point   | Very Easy  | ✅ Done | [Meow.md](HTB/Meow.md)           |
+| *(More coming...)* |                |            |         |                                  |
 
 ---
 
-## 🧭 Navigation
-| Machine | Category | Difficulty | Status | Writeup |
-|---------|----------|------------|--------|---------|
-| Meow    | Starting Point | Very Easy | ✅ Done | [View Writeup](HTB/Meow.md) |
+## 🧠 Goals
 
----
-
-## 🚀 Writeups Coming Soon
-- ☁️ Fawn
-- 💀 Redeemer
-- 🧪 Previse
-- 🔐 Vaccine
-- 🧱 Appointment
-- 🧊 Sequel
-
----
-
-## 🛠️ Skill Stack Goals
-- 🔍 Master Recon & Enumeration
-- 🧠 Exploitation Logic Building
-- 💣 Post Exploitation
-- 🚩 Bug Bounty Ready Toolkit
-
----
-
-## 🧠 Vision Map
-- 🏁 Participate in HTB, picoCTF, THM leagues
-- 🎯 Build a solid GitHub-based hacker portfolio
-- 🕶️ Get recognized in cybersec communities
-- 🐞 Report real-world bugs someday
-
----
-
-## 🧬 Arena Identity
-| Identity | Value |
-|----------|-------|
-| CTF Alias | `Dusk` 🌘 |
-| GitHub | [annecarmel](https://github.com/annecarmel) |
-| Arena Theme | Neo-Hacker |  
-| Started | April 4, 2025 |
-
----
-
-🖤 _"Hack with honor. Evolve with skill. Dominate with silence."_  
-— `Dusk` 🌘
+- 🕵️‍♀️ Master Recon & Enumeration
+- 🔐 Exploit Challenges (Privilege Escalation, Web, Crypto)
+- 🧰 Learn Tools: Nmap, Burp Suite, Gobuster, John, etc.
