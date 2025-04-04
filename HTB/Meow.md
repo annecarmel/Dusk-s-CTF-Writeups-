@@ -8,60 +8,74 @@
 
 ---
 
-## 🧠 Objective
+## 🧠 Objective  
 Gain access to the **Meow** machine and capture the user flag.
 
 ---
 
-## 🖥️ Machine Info
-- **Name:** Meow
-- **IP Address:** `10.129.239.98`
+## 🖥️ Machine Info  
+- **Name:** Meow  
+- **IP Address:** `10.129.239.98`  
 - **Port(s):** 23/tcp (Telnet)
 
 ---
 
-## 🔎 Nmap Scan
+## 🔍 Enumeration & Exploitation Summary
+
+### 🔎 Nmap Scan
 
 ```bash
 nmap -sV -sC 10.129.239.98
+```
+
+**Result:**
+
+```bash
+PORT     STATE SERVICE VERSION  
+23/tcp   open  telnet  Linux telnetd
+```
 
 ---
 
-## Result:
-PORT   STATE SERVICE VERSION
-23/tcp open  telnet  Linux telnetd
+### 📡 Service Enumeration (Telnet)
 
----
-
-## 📡 Service Enumeration (Telnet)
+```bash
 telnet 10.129.239.98
+```
 
-💡 No credentials needed
+💡 No credentials needed.  
 Once inside, you get a shell prompt.
 
 ---
-```nginx
-## 🏁 Capture the Flag
+
+### 🏁 Capture the Flag
+
+```bash
 cat /flag.txt
+```
 
 ---
 
-## 🎉 Flag:
+### 🎉 Flag
+
+```
 b40abdfe23665f766f9c61ecba8a4c19
+```
 
 ---
 
-## **🧠 What I Learned**
-Basics of using telnet
-Initial exposure to CTF walkthroughs
-Setting up VPN & first access through HTB
+### 🧠 What I Learned  
+- Basics of using Telnet  
+- Initial exposure to CTF walkthroughs  
+- Setting up VPN & first access through HTB
 
 ---
 
-## 💬 Notes by Dusk 🌘
-Telnet is super outdated but still fun to poke at!
-VPN config had to be fixed using OpenVPN and Admin PowerShell on Windows.
+### 💬 Notes by Dusk 🌘  
+Telnet is super outdated but still fun to poke at!  
+VPN config had to be fixed using OpenVPN and Admin PowerShell on Windows.  
 Had to enable Telnet manually using:
+
 ```bash
 dism /online /Enable-Feature /FeatureName:TelnetClient
-
+```
