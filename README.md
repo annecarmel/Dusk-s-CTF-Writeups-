@@ -48,4 +48,5 @@
 If you’re learning CTFs too, feel free to fork or star this repo.  
 Let’s level up together 👾✨  
 
-![Meow Flag](screenshots/meow-flag.png)
+![Meow Flag](https://github.com/annecarmel/Dusk-s-CTF-Writeups-/blob/main/screenshots/meow%20flag.png?raw=true)
+
