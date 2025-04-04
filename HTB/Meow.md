@@ -15,7 +15,7 @@ Gain access to the **Meow** machine and capture the user flag.
 
 ## 🖥️ Machine Info
 - **Name:** Meow
-- **IP Address:** `10.10.xx.xx` *(Replace with actual IP)*
+- **IP Address:** `10.129.239.98`
 - **Port(s):** 23/tcp (Telnet)
 
 ---
@@ -23,4 +23,4 @@ Gain access to the **Meow** machine and capture the user flag.
 ## 🔎 Nmap Scan
 
 ```bash
-nmap -sV -sC 10.10.xx.xx
+nmap -sV -sC **10.129.239.98**
