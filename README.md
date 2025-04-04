@@ -47,3 +47,5 @@
 ## 📌 Note to Visitors
 If you’re learning CTFs too, feel free to fork or star this repo.  
 Let’s level up together 👾✨  
+
+![Meow Flag](screenshots/meow-flag.png)
